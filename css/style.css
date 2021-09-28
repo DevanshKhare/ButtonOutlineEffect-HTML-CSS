@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width:180px;
+    height: 50px;
+    font-size: 1.2em;
+    background: #ff005c;
+    border: none;
+    margin:20px;
+    outline: 2px solid #ff005c;
+    padding:10px;
+    cursor:pointer;
+    color: white;
+    transition:all 250ms;
+}
+.btn:hover{
+    outline-offset: -8px;
+    border: 2px solid #ff005c;
+    color: rgb(34, 34, 34);
+    background: none;
+}
+.btn:nth-child(2){
+    outline-offset: -4px;
+}
+.btn:nth-child(2):hover{
+    outline-offset: 4px;
+}
+.btn:nth-child(1){
+    outline-offset: 4px;
+}
+.btn:nth-child(1):hover{
+    outline-offset:-8px;
+}
